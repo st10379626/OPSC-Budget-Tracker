@@ -1,0 +1,60 @@
+Budget tracker app.
+
+Github link:
+
+Budget tracker  is a mobile budgeting application designed to help users manage their personal finances. This Android project is built # Budget tracker  Budget Tracker App
+
+Budget tracker app is a mobile budgeting application built with Kotlin and Android Studio . It allows users to track their finances, categorize expenses, and visualize their spending using charts.
+
+ Features
+
+- Sign Up and Sign In pages for authentication
+- Main activity displaying total balance and bank account info
+- Tabs to view Transactions, Expenses, and Goals
+- "To be paid" list with collapsible category items
+- Settings page (PIN Security, Reminder, Cloud Data, Theme)
+- Account page to manage user profile
+- Calculator screen to input budget per category
+- View Charts button for data visualization
+
+Folder Structure
+
+When you open the project, navigate through the following path to locate the source code files:
+
+1. First open the "Budget tracker app" project folder.
+2. Go into the "src" folder.
+3. Then open the "main" directory.
+4. Go into "java".
+5. Then open the "com" folder.
+6. Inside that, open the "example" folder.
+7. Finally, open the "myapplication" folder.
+
+Inside the `com/example/myapplication` folder, you will find the following Kotlin activity files:
+
+- `MainActivity.kt` – Main dashboard with tabs and totals
+- `SignUpActivity.kt` – Sign-up page for new users
+- `SignInActivity.kt` – Login screen
+- `SettingsActivity.kt` – App settings (PIN, theme, etc.)
+- `AccountActivity.kt` – User account details
+- `CalculatorActivity.kt` – Input screen for category amounts
+
+ Requirements
+
+- Android Studio Arctic Fox or newer
+- Kotlin SDK
+- Android 5.0 (API level 21) or higher
+
+ How to Run
+
+1. Open Android Studio.
+2. Select "Open an existing project" and choose the `WalletWise` project folder.
+3. Let Gradle sync finish.
+4. Connect a physical Android device or use the emulator.
+5. Click "Run".
+
+
+
+
+
+
+
